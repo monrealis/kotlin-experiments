@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
 class MyTest {
-    @Test fun testOk() {
+    @Test fun `this is not ok`() {
         Assertions.assertEquals("OK", "OK")
     }
 }
